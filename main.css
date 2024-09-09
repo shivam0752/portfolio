@@ -309,12 +309,12 @@ main {
 .sidebar {
   margin-bottom: 15px;
   max-width: 400px;
-  max-height: 112px;
+  max-height: 182px;
   overflow: hidden;
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 485px; }
 
 .sidebar-info {
   position: relative;
@@ -1340,11 +1340,11 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    max-height: 180px;
+    max-height: 200px;
     margin-bottom: 30px;
   }
 
-  .sidebar.active { max-height: 584px; }
+  .sidebar.active { max-height: 604px; max-width: 500px; }
 
   .sidebar-info { gap: 25px; }
 
@@ -1836,9 +1836,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar {
     position: sticky;
-    top: 60px;
-    max-height: max-content;
-    height: 100%;
+    top: 5px;
+    max-height: 1000px;
+    height: 614px;
     margin-bottom: 0;
     padding-top: 60px;
     z-index: 1;
